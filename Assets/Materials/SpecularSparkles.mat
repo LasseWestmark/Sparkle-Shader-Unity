@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Sparkles
-  m_Shader: {fileID: 4800000, guid: 679b0f30d341fce47884d4f123e14bfb, type: 3}
+  m_Name: SpecularSparkles
+  m_Shader: {fileID: 4800000, guid: ec0d600ee665e4a459bf87274e49a076, type: 3}
   m_ShaderKeywords: USE_CUBE_REFRACTION
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

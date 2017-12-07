@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Sparkles
-  m_Shader: {fileID: 4800000, guid: 679b0f30d341fce47884d4f123e14bfb, type: 3}
+  m_Name: GlassSparkles
+  m_Shader: {fileID: 4800000, guid: 2872622b1a2f16740966e3d32ecdcdae, type: 3}
   m_ShaderKeywords: USE_CUBE_REFRACTION
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
