@@ -1,5 +1,7 @@
 # Sparkle Shader Unity
 
+![ScreenShot](https://i.imgur.com/fgiNstr.png)
+
 ## About
 
 After looking for a sparkle/glitter shader implementation and only finding [THIS](http://developer.amd.com/wordpress/media/2012/10/Shopf-Procedural.pdf) pdf from AMD (Page 22).
