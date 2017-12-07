@@ -16,4 +16,4 @@ Example shader 2: Sparkles combined with a barebones diffuse+specular setup
 Example shader 3: Sparkles combined with reflection and refraction for a bit of fancyness
 
 ## Demo
-The shader is visible in action on [https://westmark.itch.io/sparkleshader](https://westmark.itch.io/sparkleshader)
+The shaders are visible in action at [https://westmark.itch.io/sparkleshader](https://westmark.itch.io/sparkleshader)
