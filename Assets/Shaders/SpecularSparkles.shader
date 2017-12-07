@@ -21,6 +21,7 @@
 
 		Pass
 		{
+			Tags { "LightMode" = "ForwardBase" }
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
@@ -29,6 +30,7 @@
 			
 			#include "UnityCG.cginc"
 			#include "Simplex3D.cginc"
+			#include "SparklesCG.cginc"
 
 			struct appdata
 			{
@@ -50,7 +52,7 @@
 			sampler2D _MainTex;
 			float4 _MainTex_ST;
 			float4 _Color, _SpecColor;
-			float _SparkleDepth, _NoiseScale, _AnimSpeed, _SpecPow, _GlitterPow;
+			float _SpecPow, _GlitterPow;
 
 			v2f vert (appdata v)
 			{
@@ -73,21 +75,19 @@
 				float3 reflDir = reflect(-viewDir, normal);
 				float3 lightDirection;
 				float atten = 1.0;
-				lightDirection = normalize( -_WorldSpaceLightPos0.xyz );
+				lightDirection = normalize(_WorldSpaceLightPos0.xyz);
 				float diffuse = max( 0.0, dot(normal, lightDirection) * .5 + .5);
 				float specular = saturate(dot(reflDir, lightDirection));				
 				float glitterSpecular = pow(specular,_GlitterPow);
 				specular = pow(specular,_SpecPow);
 
 				//Sparkles
-				float noiseScale = _NoiseScale;
-				float noise = snoise(i.wPos * noiseScale + viewDir * _SparkleDepth - _Time.x * _AnimSpeed) * snoise(i.wPos * noiseScale + _Time.x * _AnimSpeed);
-				noise = smoothstep(.5,.6, noise);
+				float sparkles = Sparkles(viewDir,i.wPos);
 
 				//Sample the texture
 				fixed4 col = tex2D(_MainTex, i.uv) * _Color * diffuse;
 				//Apply Specular and sparkles
-				col += _SpecColor * (saturate(noise * glitterSpecular * 5) + specular);
+				col += _SpecColor * (saturate(sparkles * glitterSpecular * 5) + specular);
 				//Apply fog
 				UNITY_APPLY_FOG(i.fogCoord, col);
 				

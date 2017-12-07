@@ -66,7 +66,7 @@ Material:
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
-    - _NoiseScale: 1.85
+    - _NoiseScale: 3
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _ReflId: 3.32
@@ -74,7 +74,7 @@ Material:
     - _RefrId: 3.3
     - _RefrRoughness: 0
     - _SmoothnessTextureChannel: 0
-    - _SparkleDepth: 2.45
+    - _SparkleDepth: 5
     - _SpecPow: 50
     - _SpecularHighlights: 1
     - _SrcBlend: 1

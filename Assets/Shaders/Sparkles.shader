@@ -14,6 +14,7 @@
 
 		Pass
 		{
+			Tags { "LightMode" = "ForwardBase" }
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
@@ -22,6 +23,7 @@
 			
 			#include "UnityCG.cginc"
 			#include "Simplex3D.cginc"
+			#include "SparklesCG.cginc"
 
 			struct appdata
 			{
@@ -43,7 +45,7 @@
 			sampler2D _MainTex;
 			float4 _MainTex_ST;
 			float4 _Color, _SpecColor;
-			float _SparkleDepth, _NoiseScale, _AnimSpeed, _SpecPow, _GlitterPow;
+			float _SpecPow, _GlitterPow;
 
 			v2f vert (appdata v)
 			{
@@ -62,11 +64,9 @@
 			{
 				//Sparkles
 				float3 viewDir = normalize(UnityWorldSpaceViewDir(i.wPos));
-				float noiseScale = _NoiseScale;
-				float noise = snoise(i.wPos * noiseScale + viewDir * _SparkleDepth - _Time.x * _AnimSpeed) * snoise(i.wPos * noiseScale + _Time.x * _AnimSpeed);
-				noise = smoothstep(.5,.6, noise);
+				float sparkles = Sparkles(viewDir,i.wPos);
 
-				return noise;
+				return sparkles;
 			}
 			ENDCG
 		}
