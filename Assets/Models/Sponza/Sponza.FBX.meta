@@ -1,0 +1,358 @@
+fileFormatVersion: 2
+guid: 220af6d82f3da244bbc66de77a33c4b7
+timeCreated: 1512666723
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: arcs 01
+    100002: arcs 02
+    100004: arcs 03
+    100006: arcs 04
+    100008: arcs floor long
+    100010: arcs floor small
+    100012: arcs long
+    100014: arcs small
+    100016: Camera01
+    100018: Camera01.Target
+    100020: ceiling
+    100022: doors
+    100024: floors
+    100026: holes
+    100028: object19
+    100030: object21
+    100032: object23
+    100034: object27
+    100036: object28
+    100038: object3
+    100040: object31
+    100042: object32
+    100044: object4
+    100046: object5
+    100048: object6
+    100050: outside01
+    100052: parapet
+    100054: pillar corners
+    100056: pillar floor
+    100058: pillar quader
+    100060: pillar round
+    100062: puillar floor corner
+    100064: relief
+    100066: round holes
+    100068: //RootNode
+    100070: walls
+    100072: windows
+    400000: arcs 01
+    400002: arcs 02
+    400004: arcs 03
+    400006: arcs 04
+    400008: arcs floor long
+    400010: arcs floor small
+    400012: arcs long
+    400014: arcs small
+    400016: Camera01
+    400018: Camera01.Target
+    400020: ceiling
+    400022: doors
+    400024: floors
+    400026: holes
+    400028: object19
+    400030: object21
+    400032: object23
+    400034: object27
+    400036: object28
+    400038: object3
+    400040: object31
+    400042: object32
+    400044: object4
+    400046: object5
+    400048: object6
+    400050: outside01
+    400052: parapet
+    400054: pillar corners
+    400056: pillar floor
+    400058: pillar quader
+    400060: pillar round
+    400062: puillar floor corner
+    400064: relief
+    400066: round holes
+    400068: //RootNode
+    400070: walls
+    400072: windows
+    2000000: Camera01
+    2300000: arcs 01
+    2300002: arcs 02
+    2300004: arcs 03
+    2300006: arcs 04
+    2300008: arcs floor long
+    2300010: arcs floor small
+    2300012: arcs long
+    2300014: arcs small
+    2300016: ceiling
+    2300018: doors
+    2300020: floors
+    2300022: holes
+    2300024: object19
+    2300026: object21
+    2300028: object23
+    2300030: object27
+    2300032: object28
+    2300034: object3
+    2300036: object31
+    2300038: object32
+    2300040: object4
+    2300042: object5
+    2300044: object6
+    2300046: outside01
+    2300048: parapet
+    2300050: pillar corners
+    2300052: pillar floor
+    2300054: pillar quader
+    2300056: pillar round
+    2300058: puillar floor corner
+    2300060: relief
+    2300062: round holes
+    2300064: walls
+    2300066: windows
+    3300000: arcs 01
+    3300002: arcs 02
+    3300004: arcs 03
+    3300006: arcs 04
+    3300008: arcs floor long
+    3300010: arcs floor small
+    3300012: arcs long
+    3300014: arcs small
+    3300016: ceiling
+    3300018: doors
+    3300020: floors
+    3300022: holes
+    3300024: object19
+    3300026: object21
+    3300028: object23
+    3300030: object27
+    3300032: object28
+    3300034: object3
+    3300036: object31
+    3300038: object32
+    3300040: object4
+    3300042: object5
+    3300044: object6
+    3300046: outside01
+    3300048: parapet
+    3300050: pillar corners
+    3300052: pillar floor
+    3300054: pillar quader
+    3300056: pillar round
+    3300058: puillar floor corner
+    3300060: relief
+    3300062: round holes
+    3300064: walls
+    3300066: windows
+    4300000: arcs floor small
+    4300002: arcs 03
+    4300004: object32
+    4300006: object31
+    4300008: pillar corners
+    4300010: pillar floor
+    4300012: object28
+    4300014: object27
+    4300016: pillar quader
+    4300018: pillar round
+    4300020: arcs floor long
+    4300022: object23
+    4300024: floors
+    4300026: object21
+    4300028: puillar floor corner
+    4300030: object19
+    4300032: relief
+    4300034: arcs small
+    4300036: holes
+    4300038: outside01
+    4300040: arcs long
+    4300042: parapet
+    4300044: round holes
+    4300046: ceiling
+    4300048: arcs 01
+    4300050: object6
+    4300052: object5
+    4300054: object4
+    4300056: object3
+    4300058: arcs 02
+    4300060: arcs 04
+    4300062: walls
+    4300064: windows
+    4300066: doors
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_luk_mali
+    second: {fileID: 2100000, guid: f666a121453a6ca4fa7341b5b831c314, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_pod
+    second: {fileID: 2100000, guid: 46d7fd124620d5b459fe74c8498655a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_prozor
+    second: {fileID: 2100000, guid: 4cbae8f8c76fa6343bb1526ecdedef78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_stup
+    second: {fileID: 2100000, guid: 4203223c50ee47b4aa18a189d9fbcb06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_svod
+    second: {fileID: 2100000, guid: 6ddbfa37d8ba7834188c2d830a8b7ddf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_vrata_kock
+    second: {fileID: 2100000, guid: e15d17e07c8bf7b4d8e5857351683fa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_vrata_krug
+    second: {fileID: 2100000, guid: aac0fa0faa40409439144c3de3db381f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_zid
+    second: {fileID: 2100000, guid: 46d7fd124620d5b459fe74c8498655a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_01_luk_a
+    second: {fileID: 2100000, guid: f666a121453a6ca4fa7341b5b831c314, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_01_stub
+    second: {fileID: 2100000, guid: 4203223c50ee47b4aa18a189d9fbcb06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_01_stub_baza
+    second: {fileID: 2100000, guid: d241daf32c247ea43af0516ce57b1498, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_01_stub_baza_
+    second: {fileID: 2100000, guid: 2c2c26d2f77711d4eb469351d7cd580f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_01_stub_kut
+    second: {fileID: 2100000, guid: 4203223c50ee47b4aa18a189d9fbcb06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_01_stup
+    second: {fileID: 2100000, guid: d24bcc6798282274093a51afb1c9b266, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_01_stup_baza
+    second: {fileID: 2100000, guid: d241daf32c247ea43af0516ce57b1498, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_02_reljef
+    second: {fileID: 2100000, guid: 4f1ff5298287e794db74239ca4916629, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_svod_kapitel
+    second: {fileID: 2100000, guid: 01949f20abcac9146a9996e4ed643aa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_vijenac
+    second: {fileID: 2100000, guid: 01949f20abcac9146a9996e4ed643aa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_zid_vani
+    second: {fileID: 2100000, guid: 46d7fd124620d5b459fe74c8498655a4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
